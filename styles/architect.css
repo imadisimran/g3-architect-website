@@ -218,4 +218,16 @@ nav a{
     }
 
 
+    .features{
+        flex-direction: column;
+        gap:20px;
+    }
+
+    #feature-badge{
+        margin:10px 0;
+    }
+
+    .feature-image{
+        text-align: center;
+    }
 }
