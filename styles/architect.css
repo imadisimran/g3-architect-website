@@ -8,6 +8,20 @@
   font-style: normal;
 }
 
+.section-title{
+    font-size:2.8rem;
+    font-weight: bold;
+    color: rgba(19, 19, 19, 1);
+}
+
+.section-description{
+
+    font-size:1rem;
+    color:rgba(114, 114, 114, 1);
+
+
+}
+
 .common-button{
     padding:20px 25px;
     border-radius: 8px;
@@ -131,16 +145,55 @@ nav a{
 }
 
 
-.team-content-title{
+/* .team-content-title{
     font-size: 2.8rem;
 
+} */
+
+
+
+
+/* Feature section */
+
+.features{
+   gap:140px;
 }
 
-.team-content-description{
-    font-size:1rem;
-    margin:0px 0px 40px 0px;
+#feature-title{
+    padding-left: 20px;
+    border-left:5px solid #FF900E
 }
 
+
+.feature-card-title{
+    font-size:1.2rem;
+}
+
+.feature-content{
+    max-width: 586px;
+}
+
+.feature-card{
+    padding:30px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+
+
+.feature-image img{
+    width:100%;
+}
+
+#huge-text{
+    font-size: 4rem;
+}
+
+#feature-badge{
+    margin-left: -54px;
+    margin-top: -100px;
+}
 
 /* Responsive design */
 
