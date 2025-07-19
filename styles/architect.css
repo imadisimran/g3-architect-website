@@ -234,6 +234,30 @@ nav a{
     margin:10px 0px;
 }
 
+
+
+/* Sponsor */
+
+.sponsors-image img{
+    filter: grayscale(100%);
+    width:100%;
+}
+
+.sponsors-content{
+    max-width: 542px;
+    margin:0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sponsors-image{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:150px;
+}
+
+
+
 /* Responsive design */
 
 @media screen and (max-width:576px) {
@@ -272,5 +296,10 @@ nav a{
 
     .fact-cards{
         grid-template-columns: 1fr;
+    }
+
+    .sponsors-image{
+        grid-template-columns: repeat(2,1fr);
+        gap:20px 150px;
     }
 }
